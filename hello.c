@@ -30,4 +30,10 @@ countT++;
 
 printf("Heads %d, Tails %d\n",countH,countT);
 
+
+if(countH > countT) printf("You won!\n");
+else printf("You lost!\n");
+
+
+
 }
